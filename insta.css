@@ -1,0 +1,400 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+
+}
+.MyBody{
+    border: 2px solid black;
+    margin-top:1px;
+    margin-left:30px;
+    width: 417px;
+    height: 700px;
+}
+
+/* top bar  */
+
+.left-side-top{
+    margin-top: 20px;
+    margin-left: 10px;
+    display: inline-block;
+}
+
+.left-side-top img{
+    width: 35px;
+    position: relative;
+    left: 105px;
+    bottom: 32px;   
+}
+
+.right-side-top{
+    position: relative;
+    bottom: 88px;
+}
+
+.right-side-top .thread-icon img{
+    width:40px;
+    position: relative;
+    left: 290px;
+    top: 22px;
+}
+
+.right-side-top .add-icon img{
+    width:23px;
+    position: relative;
+    left: 330px;
+}
+
+.right-side-top .menu-icon img{
+    width:27px;
+    position: relative;
+    left: 363px;
+    bottom: 22px
+}
+
+ /* profile page */
+
+ .profile-description{
+    height: 105px;
+    position: relative;
+    bottom: 80px;
+ }
+
+ .profile-description .profile-picture img{
+    border: 3px solid rgba(25, 250, 0, 0.906);
+    position: relative;
+    left:20px;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.profile-description .add-story-btn img{
+    position: relative;
+    left: 100px;
+    bottom: 28px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+
+ .profile-description .acc-info{
+    position: relative;
+    left: 170px;
+    bottom: 105px;
+    height: 60px;
+    width: 200px;
+ }
+
+ .profile-description .acc-info .posts-numbers {
+     position: absolute;
+     top: 12px;
+     left: 20px;
+     font-size: 140%;
+     font-family: 'Times New Roman';
+ }
+
+ .profile-description .acc-info .follow-numbers {
+     position: absolute;
+     top: 12px;
+     left: 82px;
+     font-size: 140%;
+     font-family: 'Times New Roman';
+ }
+
+ .profile-description .acc-info .following-numbers {
+     position: absolute;
+     top: 12px;
+     left: 165px;
+     font-size: 140%;
+     font-family: 'Times New Roman';
+ }
+
+ .profile-description .acc-info .posts{
+    position:absolute;
+    top:40px;
+    left:10px;
+    font-size: 90%;
+    font-family: 'Times New Roman';
+ }
+
+ .profile-description .acc-info .follow{
+    position:absolute;
+    top:40px;
+    left:70px;
+    font-size: 90%;
+    font-family: 'Times New Roman';
+ }
+
+ .profile-description .acc-info .following{
+    position:absolute;
+    top:40px;
+    left:150px;
+    font-size: 90%;
+    font-family: 'Times New Roman';
+ }
+
+ /* instagram bio area -- about user  */
+.instagram-bio-area{
+    position: relative;
+    bottom: 80px;
+    height: 100px;
+    
+}
+
+ .instagram-bio-area .user-name{
+    font-size: 70%;
+    padding-top: 5px;
+    padding-left: 15px;
+ }
+
+ .instagram-bio-area .user-bio{
+    font-size: 95%;
+    padding-top: 5px;
+    padding-left: 15px;
+ }
+
+ .instagram-bio-area .user-link img{
+    padding-left: 15px;
+    width: 20px;
+    height: 20px;
+ }
+
+ .instagram-bio-area .user-link-text a{
+    color: rgb(12, 154, 230);
+    text-decoration: none;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    left: 35px;
+    bottom: 20px;
+ }
+
+ /* profile customize btns  */
+
+ .profile-control{
+    height: 30px;
+    position: relative;
+    bottom: 80px;
+ }
+ .profile-control .edit-profile{
+    position: absolute;
+    border-radius: 10px;
+    text-align: center;
+    font-size: medium;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width:140px;
+    height: 20px;
+    padding: 5px;
+    margin-left: 10px;
+    background-color: rgb(177, 179, 186);
+ }
+
+ .profile-control .share-profile{
+    position: absolute;
+    left:160px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: medium;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width:140px;
+    height: 20px;
+    padding: 5px;
+    margin-left: 10px;
+    background-color: rgb(177, 179, 186);
+ }
+
+.profile-control .insta-add-icon{
+    position: absolute;
+    left: 320px;
+    border-radius: 10px;
+    text-align: center;
+    width: 30px;
+    height: 20px;
+    padding: 5px;
+    margin-left: 10px;
+    background-color: rgb(177, 179, 186);
+}
+
+.profile-control .insta-add-icon img{
+    position: relative;
+    bottom: 5px;
+    width: 30px;
+    height: 30px;
+
+}
+
+/* story highlights header */
+
+.My-story-header{
+    position: relative;
+    left: 15px;
+    bottom: 60px;
+}
+
+.My-story-header header{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* all saves story in seperate groups  */
+.all-stories{
+    position:relative;
+    left:15px;
+    bottom: 50;
+    height: 100px;
+}
+.all-stories .stories-group1{
+    border: 1px solid black;
+    position: absolute;
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+}
+
+.all-stories .stories-group1 img{
+    position: relative;
+    top: 18px;
+    left: 19px;
+    width: 30px;
+    height: 30px;
+}
+
+.all-stories .stories-group1 .text{
+    position: relative;
+    top: 45px;
+    left:25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 60%;
+}
+
+.all-stories .stories-group2{
+    border: 1px solid black;
+    background-color: rgb(174, 179, 184);
+    position: absolute;
+    left:80px;
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+}
+
+.all-stories .stories-group3{
+    border: 1px solid black;
+    background-color: rgb(174, 179, 184);
+    position: absolute;
+    left:160px;
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+}
+
+.all-stories .stories-group4{
+    border: 1px solid black;
+    background-color: rgb(174, 179, 184);
+    position: absolute;
+    left:240px;
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+}
+
+.all-stories .stories-group5{
+    border: 1px solid black;
+    background-color: rgb(174, 179, 184);
+    position: absolute;
+    left:320px;
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+}
+
+/* My all Posted Content */
+.posted-content{
+    height: 60px;
+    width: 368px;
+    position: relative;
+    padding-left:50px;
+    bottom: 50px;
+    right: 10px;
+}
+
+.posted-content .posts-content img{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+}
+
+.posted-content .reels-content img{
+    position: absolute;
+    left: 200px;
+    top:15px;
+    width: 19px;
+    height: 19px;
+}
+
+.posted-content .liked-content img{
+    position: absolute;
+    left: 330px;
+    width: 50px;
+    height: 50px;
+}
+
+/* borders  */
+.border1
+{
+    border-bottom: 1px solid black;
+    height: 30px;
+    position:relative;
+    bottom:100px;
+}
+ 
+.border2
+{
+    border-bottom: 3px solid black;
+    height: 25px;
+    width:140px;
+    position:relative;
+    bottom:126px;
+}
+ 
+/* Bottom Menu  */
+.bottom-menu{
+    border-top: 2px solid black;
+    height: 40px;
+}
+
+.bottom-menu .home-menu img {
+    position: relative;
+    left:10px;
+    bottom: 0;
+    width: 50px;
+}
+
+.bottom-menu .search-bar img {
+    position: relative;
+    left:95px;
+    bottom: 45px;
+    width: 48px;
+}
+
+.bottom-menu .add-post img {
+    position: relative;
+    left:190px;
+    bottom: 77px;
+    width: 21px;
+}
+
+.bottom-menu .show-reels img {
+    position: relative;
+    left:278px;
+    bottom: 98px;
+    width: 22px;
+}
+
+.bottom-menu .your-account img {
+    border: 2px solid black;
+    border-radius: 50%;
+    position: relative;
+    left:360px;
+    bottom: 123px;
+    width: 22px;
+}
